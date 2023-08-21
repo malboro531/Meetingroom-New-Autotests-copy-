@@ -1,0 +1,17 @@
+{
+  "creditName": "Test name - should be deleted",
+  "minSum": 1234556,
+  "maxSum": 1234556,
+  "multiplicityOfSum": 11,
+  "currency": "USD",
+  "loanRate": 11.5,
+  "needQuarantee": false,
+  "earlyRepayment": false,
+  "minTerm": 11,
+  "maxTerm": 11,
+  "multiplicityOfTemp": 11,
+  "description": "Text of credit description",
+  "needIncomeStatement": false,
+  "penaltyId": "e0bfc3db-f94d-4cbc-ae42-c926b8e62518",
+  "active": false
+}

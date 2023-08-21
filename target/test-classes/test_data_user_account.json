@@ -1,0 +1,11 @@
+{
+  "id": "8d719696-0e7e-42a3-9d76-b0cde20d7a98",
+  "accountNumber": "2179464728219277297116747147020256",
+  "openDate": "2023-01-26",
+  "closeDate": "2023-01-26",
+  "ownerId": "7e6260b6-c2e4-4b4c-bfae-b71ab4a8041a",
+  "currency": "USD",
+  "bankName": "Shvetsov2Bank",
+  "balance": 20,
+  "active": true
+}

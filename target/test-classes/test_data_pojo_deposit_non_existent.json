@@ -1,0 +1,18 @@
+{
+  "depositProductId": "4557ed29-3347-412a-843f-30b653228bd5",
+  "typeId": "d4b7056b-8fa9-4ed9-8347-aa0023dbee37",
+  "currencyId": "dd5c6c37-a87a-4fb6-a436-30788f18b898",
+  "termMonths": 10,
+  "amount": 700,
+  "interestRate": 10,
+  "fixedInterest": true,
+  "subsequentReplenishment": true,
+  "earlyWithdrawal": true,
+  "interestWithdrawal": true,
+  "interestWithdrawalRate": 1.1,
+  "capitalization": true,
+  "revocable": true,
+  "userId": "5f7cf5be-9025-42bd-8b94-ebee17419259",
+  "linkedCards": [
+  ]
+}

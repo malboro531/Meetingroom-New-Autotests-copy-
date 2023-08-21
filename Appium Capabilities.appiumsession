@@ -1,0 +1,59 @@
+{
+  "version": "1.0",
+  "caps": [
+    {
+      "type": "text",
+      "name": "platformName",
+      "value": "Android"
+    },
+    {
+      "type": "text",
+      "name": "appium:platformVersion",
+      "value": "12.0"
+    },
+    {
+      "type": "text",
+      "name": "appium:app",
+      "value": "C:\\Users\\User\\IdeaProjects\\meetingroom-new-autotests\\app\\app-debug.apk"
+    },
+    {
+      "type": "text",
+      "value": "Pixel 4",
+      "name": "appium:deviceName"
+    },
+    {
+      "type": "text",
+      "name": "appium:appPackage",
+      "value": "com.example.meetingroom_new_android"
+    },
+    {
+      "type": "text",
+      "name": "appium:appActivity",
+      "value": "com.example.meetingroom_new_android.MainActivity"
+    }
+  ],
+  "server": {
+    "local": {},
+    "remote": {
+      "hostname": "localhost",
+      "path": "/wd/hub"
+    },
+    "sauce": {
+      "dataCenter": "us-west-1"
+    },
+    "headspin": {},
+    "browserstack": {},
+    "lambdatest": {},
+    "advanced": {},
+    "bitbar": {},
+    "kobiton": {},
+    "perfecto": {},
+    "pcloudy": {},
+    "testingbot": {},
+    "experitest": {},
+    "roboticmobi": {},
+    "remotetestkit": {}
+  },
+  "serverType": "remote",
+  "visibleProviders": []
+}

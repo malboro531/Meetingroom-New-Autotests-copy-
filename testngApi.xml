@@ -1,0 +1,35 @@
+<suite name="TestAPI">
+    <test name="Api">
+        <listeners>
+            <listener class-name="listener.TestListener"/>
+        </listeners>
+       <!-- <packages>
+            <package name = "mrn_api.*"/>
+        </packages>-->
+        <classes>
+            <!-- account controller -->
+            <class name="mrn_api.account_controller.CreateAccountAdminTest"/>
+            <class name="mrn_api.account_controller.CreateAccountUserTest"/>
+            <class name="mrn_api.account_controller.GetAccountAdminTest"/>
+            <class name="mrn_api.account_controller.GetAccountUserTest"/>
+            <class name="mrn_api.account_controller.UpdateAccountAdminTest"/>
+            <class name="mrn_api.account_controller.UpdateAccountUserTest"/>
+
+            <!-- address controller -->
+            <class name="mrn_api.address_controller.GetAddressAdminTest"/>
+            <class name="mrn_api.address_controller.GetAddressUserTest"/>
+
+            <!-- credit controller -->
+            <class name="mrn_api.credit_controller.CreateCreditProductTest"/>
+            <class name="mrn_api.credit_controller.GetCreditProductTest"/>
+
+            <!-- user controller -->
+            <class name="mrn_api.user_controller.CreateUserAdminTest"/>
+            <class name="mrn_api.user_controller.CreateUserUserTest"/>
+            <class name="mrn_api.user_controller.CreateUserWithEmptyFieldsAdminTest"/>
+            <class name="mrn_api.user_controller.CreateUserWithoutFieldsAdminTest"/>
+            <class name="mrn_api.user_controller.DeleteUserAdminTest"/>
+            <class name="mrn_api.user_controller.DeleteUserUserTest"/>
+        </classes>
+    </test>
+</suite>

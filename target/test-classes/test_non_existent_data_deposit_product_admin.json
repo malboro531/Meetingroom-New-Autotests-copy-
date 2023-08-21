@@ -1,0 +1,23 @@
+{
+"depositName": "Deposit User",
+"type_id": "9f16662f-39d7-4fab-bd0b-60bea4167c4a",
+"currency_id": "9304a128-0c4a-422f-a0f8-949dec2b6a15",
+"minTermMonths": 10,
+"maxTermMonths": 10,
+"minAmount": 0,
+"maxAmount": 0,
+"fixedInterest": true,
+"subsequentReplenishment": true,
+"earlyWithdrawal": true,
+"interestWithdrawalRate": 1.1,
+"capitalization": true,
+"revocable": true,
+"customizable": true,
+"active": true,
+"descriptions": [
+{
+"shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+"fullDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+}
+]
+}

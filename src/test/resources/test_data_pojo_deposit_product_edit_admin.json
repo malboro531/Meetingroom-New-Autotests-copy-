@@ -1,0 +1,25 @@
+{
+  "id": "c75ec5bb-be49-48e3-8b6e-ee57640b46ca",
+  "depositName": "TEST AQA Deposit",
+  "type_id": "d4b7056b-8fa9-4ed9-8347-aa0023dbee37",
+  "currency_id": "9304a128-0c4a-422f-a0f8-949dec2b6a15",
+  "minTermMonths": 10,
+  "maxTermMonths": 600,
+  "minAmount": 0,
+  "maxAmount": 0,
+  "fixedInterest": true,
+  "subsequentReplenishment": true,
+  "earlyWithdrawal": true,
+  "interestWithdrawalRate": 1.1,
+  "capitalization": true,
+  "revocable": true,
+  "customizable": true,
+  "active": true,
+  "descriptions": [
+    {
+      "id": "e9cd09ee-517b-4dbc-85b4-406a131ac9e4",
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite1" configfailurepolicy="continue">
+    <test name="Registration and authorization">
+        <classes>
+            <class name="mrn_tests.E1_registration_and_authorization.UC_1_1.ForgotPasswordOptionFunctionalityTest"/>
+            <class name="mrn_tests.E1_registration_and_authorization.UC_1_1.HidePasswordOptionFunctionalityTest"/>
+            <class name="mrn_tests.E1_registration_and_authorization.UC_1_1.LoginLengthTest"/>
+            <class name="mrn_tests.E1_registration_and_authorization.UC_1_1.NetworkTest"/>
+            <class name="mrn_tests.E1_registration_and_authorization.UC_1_1.NotAcceptableCredentialsTest"/>
+            <class name="mrn_tests.E1_registration_and_authorization.UC_1_1.PasswordLengthTest"/>
+            <class name="mrn_tests.E1_registration_and_authorization.UC_1_1.RegistrationAndAuthorizationTest"/>
+
+            <class name="mrn_tests.E1_registration_and_authorization.UC_1_2.ConfirmCodeTest"></class>
+            <class name="mrn_tests.E1_registration_and_authorization.UC_1_2.NotValidCodeTest"></class>
+            <class name="mrn_tests.E1_registration_and_authorization.UC_1_2.UIButtonsTest"></class>
+
+            <class name="mrn_tests.E1_registration_and_authorization.UC_1_3.VerificationCodeMethod"></class>
+        </classes>
+    </test>
+    <test name="Order card process">
+        <classes>
+            <class name="mrn_tests.E4_order_card.UC_4_1.OrderAnyCard"></class>
+            <class name="mrn_tests.E4_order_card.UC_4_2.PersonalDataTest"></class>
+            <class name="mrn_tests.E4_order_card.UC_4_3.PersonalDataRegistrationAddressTest"></class>
+            <class name="mrn_tests.E4_order_card.UC_4_4.DeliveryCardTest"></class>
+        </classes>
+    </test>
+    <test name="Notification Controller">
+        <classes>
+            <class name="mrn_api.notification_controller.SendEmailTest"></class>
+            <class name="mrn_api.notification_controller.GetEmailNotificationTest"></class>
+        </classes>
+    </test>
+    <test name="Information controller">
+        <classes>
+            <class name="mrn_api.information_controller.GetInformationTest"></class>
+        </classes>
+    </test>
+    <test name="FileStorage controller">
+        <classes>
+            <class name="mrn_api.file_storage_controller.GetFileStorageTest"></class>
+        </classes>
+    </test>
+    <test name="Address controller">
+        <classes>
+            <class name="mrn_api.address_controller.UpdateAddressAdminTest"></class>
+            <class name="mrn_api.address_controller.GetAddressAdminTest"></class>
+        </classes>
+    </test>
+    <test name="Group of API Test">
+        <groups>
+            <define name="group">
+                <include name="API"/>
+            </define>
+            <run>
+                <include name="group"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="mrn_api.account_controller.GetAccountAdminTest"/>
+        </classes>
+    </test>
+    <test name="Group of group Test">
+        <groups>
+            <define name="group">
+                <include name="Other"/>
+                <include name="Functional"/>
+            </define>
+
+            <run>
+                <include name="group"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="mrn_tests.E1_registration_and_authorization.UC_1_1.HidePasswordOptionFunctionalityTest"/>
+            <class name="mrn_tests.E1_registration_and_authorization.UC_1_1.ForgotPasswordOptionFunctionalityTest"/>
+        </classes>
+    </test>
+</suite>
